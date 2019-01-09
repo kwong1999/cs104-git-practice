@@ -1,6 +1,10 @@
 # include <iostream>
 
+using namespace std;
+
 int main() 
 {
-  std::cout << "HelloWorl d!" << std::endl;
+	string a;
+	cin >> a;
+  std::cout << "hello" + a << std::endl;
 }
